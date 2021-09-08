@@ -42,6 +42,7 @@ namespace ConsoleApp2
                     Console.WriteLine(ex.Message);
                 }
                 Console.WriteLine(Environment.NewLine);
+
             }
         }
 
