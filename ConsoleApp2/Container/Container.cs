@@ -6,9 +6,9 @@ using System.Text;
 
 namespace ConsoleApp2.Container
 {
-    class Container
+    public static class Container
     {
-        public IServiceProvider Build()
+        public static IServiceProvider Build()
         {
             var container = new ServiceCollection()
                 .AddSingleton<IPaymentProcessorService, PaymentProcessorService>()

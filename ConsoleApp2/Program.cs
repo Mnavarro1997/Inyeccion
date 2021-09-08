@@ -1,5 +1,6 @@
 ﻿using DependencyInyection;
 using System;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ConsoleApp2
 {
